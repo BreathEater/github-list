@@ -1,11 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+
+const FileList = ({ files }) => 
+  <div>FileList<div/>;
+
+const data = [
+{
+  id: 1,
+  name: 'src',
+  type: 'folder',
+  updated_at: '2019-07-07 21:24:00',
+  latestCommit: {
+    message: 'Initial commit'
+  }
+},
+{
+  id: 2,
+  name: 'src',
+  type: 'folder',
+  updated_at: '2019-07-07 21:24:00',
+  latestCommit: {
+    message: 'Initial commit'
+  }
+},
+{
+  id: 3,
+  name: 'src',
+  type: 'folder',
+  updated_at: '2019-07-07 21:24:00',
+  latestCommit: {
+    message: 'Initial commit'
+  }
+},
+];
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
